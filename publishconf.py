@@ -10,16 +10,13 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# don't delete our .git submodule dir
-DELETE_OUTPUT_DIRECTORY = False
-
 SITEURL = 'https://nrskhouw.github.io/'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
 # Adding paths to the plugins and themes:
 THEME = "pelican-themes/voidy-bootstrap"
