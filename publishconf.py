@@ -19,9 +19,9 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 
 # Adding paths to the plugins and themes:
-THEME = "pelican-themes/voidy-bootstrap"
-#PLUGIN_PATHS = ['pelican-plugins']
-#PLUGINS = ['sitemap']
+THEME = "pelican-themes/flex"
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['sitemap','i18n_subsites']
 
 # Following items are often useful when publishing
 
